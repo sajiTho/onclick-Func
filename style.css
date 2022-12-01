@@ -1,5 +1,16 @@
 .html body {
     margin: 0%;
-    padding:0%;
-    
+    padding: 0%;
+
+}
+
+.bulb {
+    height: 300px;
+    width: 300px;
+    background: yellow;
+}
+
+.bulb-container {
+    height: 200px;
+    width: 200px;
 }

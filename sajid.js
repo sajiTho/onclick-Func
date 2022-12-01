@@ -24,3 +24,10 @@ document.getElementById('google').addEventListener('click', function() {
  window.location = ('https://google.com');
  win.focus();
 })
+
+
+setInterval( async function() {
+    document.querySelector('#bulb').classList.toggle('bulb')
+}, 300)
+
+
