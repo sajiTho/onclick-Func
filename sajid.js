@@ -19,3 +19,8 @@ let c = prompt('what is your fav number?');
 if (c==2 ) {
     btn.removeEventListener( 'click', x ) 
 }
+
+document.getElementById('google').addEventListener('click', function() {
+ window.location = ('https://google.com');
+ win.focus();
+})
